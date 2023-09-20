@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  border: 1px solid pink;
+}
+
+article {
+  border: 1px solid blue;
+}
+
+table {
+  border: 1px solid black;
+  margin: auto;
+
+}
+
+.tbprincipal {
+  margin-bottom: 20px;
+}
+
+.tbrelatorio {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr.linha {
+  height: 30px;
+  text-align: center;
+}
+
+
+caption {
+  margin-top: 20px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+#tb-entrada {
+  background-color: rgb(156, 206, 156);
+}
+
+#tb-saida {
+  background-color: rgb(247, 81, 81);
+}
+
+
+col.cvlsaida {
+  background-color: rgb(247, 81, 81);
+}
+
+col.cvlentrada {
+  background-color: rgb(156, 206, 156);
+}
